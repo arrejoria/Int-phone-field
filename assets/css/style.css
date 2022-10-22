@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: center;
   width: 100vw;
-  max-width: 1200px;
+  max-width: 400px;
   margin: 50vh auto;
 }
 
@@ -46,10 +46,9 @@
   position: absolute;
   top: var(--field-height);
   left: 0;
-  width: 100%;
   height: 200px;
-  max-width: 100%;
   overflow-y: scroll;
+  white-space: nowrap;
 }
 .ipf__divider {
   border-bottom: 1px solid #ccc;
